@@ -1,5 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
+import java.sql.Connection;
+import java.sql.SQLException;
 
+class main
+{
+    public static void main(String[] args) {
+        Film film = new Film(1,"inception","128","ACTION");
+        film.ajouterFilm();
+        film.afficherFilms();
+    }
 }
