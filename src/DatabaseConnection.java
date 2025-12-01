@@ -3,7 +3,7 @@
     import java.sql.SQLException;
 
     public class DatabaseConnection {
-        private static String URL="jdbc:mysql://localhost:3306/cenima";
+        private static String URL="jdbc:mysql://localhost:3307/cenima";
         private static String user="root";
         private static String password="AyoubHadi120";
         public static Connection getConnection(){
@@ -14,3 +14,4 @@
             e.printStackTrace();
             return null;
         }}}
+

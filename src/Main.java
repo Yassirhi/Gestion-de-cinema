@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Film films = new Film(1, "film1", "23", "Heror");
